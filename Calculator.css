@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(62, 72, 116);
+  font-family: sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-gap: 10px 10px;
+  background-color: rgb(34, 44, 68);
+  padding: 20px;
+  border-radius: 0.5rem;
+  grid-gap: 20px 20px;
+  width: max-content;
+  margin: 10rem auto;
+}
+
+.itemm {
+  
+  background-color: rgb(30, 27, 43);
+  color: white;
+  padding: 30px 50px;
+  text-align: right;
+  border-radius: 0.9rem;
+  font-size: 2.5rem;
+  box-sizing: border-box;
+  margin: 1rem 30rem;
+
+
+} 
+
+.item {
+  font-family: 'Share Tech Mono', monospace;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  user-select: none;
+} 
+.RESET {
+  background-color: #7778a5;
+  color: rgb(235, 227, 227);
+  padding: 20px;
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  user-select: none;
+}
+.DEL {
+  background-color: #7778a5;
+  color: rgb(255, 252, 252);
+  padding: 20px;
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  user-select: none;
+}
+.egale {
+  background-color: #fd3434;
+  color: rgb(255, 241, 241);
+  padding: 20px;
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  user-select: none;
+
+}
